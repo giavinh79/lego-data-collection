@@ -47,6 +47,7 @@ const parseDimensionsFromName = name => {
 };
 
 let globalPartsArray = [];
+let counter = 0;
 
 // Most units are 1.6cm
 const webscrapePart = part => {
@@ -91,11 +92,13 @@ const webscrapePart = part => {
       resolve({ name: data.name, partNum: part, dimensions: null });
     }
   });
+  counter++;
+  console.log(counter);
   return partObj;
 };
 
 const retrievePartData = () => {
-  fs.createReadStream('./parts-minimal.csv')
+  fs.createReadStream('./res/parts-minimal.csv')
     .pipe(csv())
     .on('data', row => {
       globalPartsArray.push(webscrapePart(row.part_num));
@@ -104,7 +107,7 @@ const retrievePartData = () => {
       try {
         const res = await Promise.all(globalPartsArray);
         let data = JSON.stringify(res);
-        fs.writeFileSync('parts.json', data);
+        fs.writeFileSync('./res/parts.json', data);
       } catch (err) {
         console.log(err);
       }
