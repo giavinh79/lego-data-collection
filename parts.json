@@ -1,0 +1,734 @@
+[
+  { "name": "Sticker Sheet for Set 725-2", "partNum": "004285", "dimensions": null, "brickOwlId": "611961" },
+  { "name": "Sticker Sheet for Set 182-1", "partNum": "004590", "dimensions": null, "brickOwlId": "302613" },
+  { "name": "Sticker Sheet 1 for Set 1650-1", "partNum": "004591", "dimensions": null, "brickOwlId": "187889" },
+  { "name": "Sticker Sheet 2 for Set 1650-1", "partNum": "004602", "dimensions": null, "brickOwlId": "989552" },
+  { "name": "Sticker Sheet for Sets 369-1 and 575-2", "partNum": "004632", "dimensions": null },
+  { "name": "Set 0687 Activity Booklet 1", "partNum": "0687b1", "dimensions": null },
+  {
+    "name": "Baseplate 16 x 30 with Set 080 Yellow House Print",
+    "partNum": "0901",
+    "dimensions": { "width": "16", "length": "30", "height": 1 }
+  },
+  {
+    "name": "Baseplate 16 x 24 with Set 080 Small White House Print",
+    "partNum": "0902",
+    "dimensions": { "width": "16", "length": "24", "height": 1 }
+  },
+  {
+    "name": "Baseplate 16 x 24 with Set 080 Red House Print",
+    "partNum": "0903",
+    "dimensions": { "width": "16", "length": "24", "height": 1 }
+  },
+  {
+    "name": "Baseplate 16 x 24 with Set 080 Large White House Print",
+    "partNum": "0904",
+    "dimensions": { "width": "16", "length": "24", "height": "0.33" },
+    "brickOwlId": "99648"
+  },
+  {
+    "name": "Homemaker Bookcase 2 x 4 x 4",
+    "partNum": "1",
+    "dimensions": { "width": "2", "length": "4", "height": "4" },
+    "brickOwlId": "697619"
+  },
+  {
+    "name": "Baseplate 24 x 32",
+    "partNum": "10",
+    "dimensions": { "width": "24", "length": "32", "height": "0.33" },
+    "brickOwlId": "557978"
+  },
+  {
+    "name": "Duplo Animal Brick 2 x 2 Elephant Head",
+    "partNum": "10000",
+    "dimensions": { "width": "2", "length": "2", "height": 1 }
+  },
+  { "name": "Sticker Sheet for Set 4203-1", "partNum": "10010492", "dimensions": null, "brickOwlId": "122276" },
+  { "name": "Sticker Sheet #1 for 41055-1", "partNum": "10016414", "dimensions": null },
+  {
+    "name": "Pullback Motor 8 x 4 x 2/3",
+    "partNum": "10039",
+    "dimensions": { "width": "8", "length": "4", "height": "0.67" },
+    "brickOwlId": "143156"
+  },
+  { "name": "Minifig Hair Tousled", "partNum": "10048", "dimensions": null, "brickOwlId": "265093" },
+  {
+    "name": "Minifig Shield Broad with Spiked Bottom and Cutout Corner",
+    "partNum": "10049",
+    "dimensions": null,
+    "brickOwlId": "896787"
+  },
+  {
+    "name": "Minifig Shield Broad with Spiked Bottom and Cutout Corner with Handprint Print",
+    "partNum": "10049pr0001",
+    "dimensions": { "width": "1", "length": "2", "height": "4" },
+    "brickOwlId": "422757"
+  },
+  { "name": "Weapon Sword (Uruk-hai)", "partNum": "10050", "dimensions": null, "brickOwlId": "903307" },
+  {
+    "name": "Minifig Helmet Castle with Lateral Comb [Uruk-hai]",
+    "partNum": "10051",
+    "dimensions": null,
+    "brickOwlId": "233232"
+  },
+  {
+    "name": "Minifig Helmet Castle with Lateral Comb and Handprint Print",
+    "partNum": "10051pr01",
+    "dimensions": { "width": "2", "length": "2", "height": "2" },
+    "brickOwlId": "108519"
+  },
+  {
+    "name": "Minifig Neckwear Beard, Rounded End [Gandalf]",
+    "partNum": "10052",
+    "dimensions": null,
+    "brickOwlId": "333703"
+  },
+  {
+    "name": "Weapon Sword Small",
+    "partNum": "10053",
+    "dimensions": { "width": "3.50", "length": "1", "height": "0.33" },
+    "brickOwlId": "96903"
+  },
+  {
+    "name": "Minifig Helmet with Cheek Protection and Horsehead Comb (Rohan Style)",
+    "partNum": "10054",
+    "dimensions": null,
+    "brickOwlId": "817785"
+  },
+  {
+    "name": "Minifig Helmet with Cheek Protection and Horsehead Comb (Rohan Style) with Eomer Print",
+    "partNum": "10054pr0001",
+    "dimensions": null,
+    "brickOwlId": "212885"
+  },
+  {
+    "name": "Minifig Helmet with Cheek Protection and Horsehead Comb (Rohan Style) with Theoden Print",
+    "partNum": "10054pr0002",
+    "dimensions": null,
+    "brickOwlId": "690745"
+  },
+  {
+    "name": "Minifig Hair Long Straight with Light Flesh Elf Ears Print",
+    "partNum": "10055pr0001",
+    "dimensions": null,
+    "brickOwlId": "253634"
+  },
+  { "name": "Minifig Helmet Castle with Cheek Protection [Plain]", "partNum": "10056", "dimensions": null },
+  {
+    "name": "Minifig Helmet with Cheek Protection and Dark Red Ornaments Print",
+    "partNum": "10056pr0001",
+    "dimensions": null,
+    "brickOwlId": "466028"
+  },
+  { "name": "Body / Head Gollum", "partNum": "10057", "dimensions": null },
+  { "name": "Body / Head Gollum - Wide Eyes", "partNum": "10057pr0001", "dimensions": null, "brickOwlId": "705242" },
+  {
+    "name": "Body / Head Gollum - Narrow Eyes",
+    "partNum": "10057pr0002",
+    "dimensions": { "width": "3", "length": "2.50", "height": "2.33" },
+    "brickOwlId": "718506"
+  },
+  { "name": "Arm, Bent [Gollum]", "partNum": "10058", "dimensions": null, "brickOwlId": "408546" },
+  { "name": "Arm Goblin King, Left", "partNum": "10061", "dimensions": null, "brickOwlId": "337765" },
+  { "name": "Hand Cave Troll, Left", "partNum": "10062", "dimensions": null, "brickOwlId": "460307" },
+  { "name": "Arm Goblin King, Right", "partNum": "10063", "dimensions": null, "brickOwlId": "406065" },
+  { "name": "Hand Cave Troll, Right", "partNum": "10064", "dimensions": null, "brickOwlId": "754850" },
+  {
+    "name": "Minifig Neckwear Beard, Full with Braided Moustache Ends",
+    "partNum": "10065",
+    "dimensions": null,
+    "brickOwlId": "3569"
+  },
+  { "name": "Minifig Hair Orc [Plain]", "partNum": "10066", "dimensions": null },
+  {
+    "name": "Minifig Hair Orc with Dark Tan Ears Print",
+    "partNum": "10066pr0001",
+    "dimensions": null,
+    "brickOwlId": "798917"
+  },
+  {
+    "name": "Minifig Hair Orc with Olive Green Ears Print",
+    "partNum": "10066pr0002",
+    "dimensions": null,
+    "brickOwlId": "983477"
+  },
+  {
+    "name": "Minifig Hair Orc with Medium Dark Flesh Ears Print",
+    "partNum": "10066pr0003",
+    "dimensions": null,
+    "brickOwlId": "962987"
+  },
+  {
+    "name": "Paper, Cardboard Backdrop for Set 10075 Spider-Man Action Pack",
+    "partNum": "10075cdb01",
+    "dimensions": null,
+    "brickOwlId": "674422"
+  },
+  { "name": "Sticker Sheet for Set 3184-1", "partNum": "100954456", "dimensions": null, "brickOwlId": "32658" },
+  { "name": "Sticker Sheet for Set 3186-1", "partNum": "10095457", "dimensions": null, "brickOwlId": "621063" },
+  { "name": "Sticker Sheet for Set 3063-1", "partNum": "10099434", "dimensions": null, "brickOwlId": "313615" },
+  { "name": "Sticker Sheet for Set 3185-1", "partNum": "10099435", "dimensions": null, "brickOwlId": "384632" },
+  {
+    "name": "Duplo Figure with Headset and Cap Yellow, and Fireman Overalls Print",
+    "partNum": "10111apr0006",
+    "dimensions": null,
+    "brickOwlId": "148621"
+  },
+  {
+    "name": "Duplo Figure with Headset and Cap Black, with Dark Blue Legs, Badge Print, Black Arms, Light Flesh Hands (Police)",
+    "partNum": "10111pr0001",
+    "dimensions": null,
+    "brickOwlId": "132276"
+  },
+  {
+    "name": "Duplo Figure with Headset and Cap Yellow, with Dark Blue Arms, and Legs, Yellow Knee Pads Print, and Yellow Vest with ID Badge and Radio Print",
+    "partNum": "10111pr0002",
+    "dimensions": null
+  },
+  {
+    "name": "Duplo Figure with Headset and Cap Yellow, with Brown Vest with Zippers over Black Shirt, and Blue Legs",
+    "partNum": "10111pr0005c01",
+    "dimensions": null,
+    "brickOwlId": "218381"
+  },
+  {
+    "name": "Duplo Figure with Headset and Cap Black, with Reddish Brown Top with ID Badge Print, Light Flesh Face and Hands, and Blue Legs",
+    "partNum": "10111pr0005c02",
+    "dimensions": null,
+    "brickOwlId": "399878"
+  },
+  {
+    "name": "Duplo Figure with Headset and Cap Yellow, with White Race Suit with Red Sleeves and Octan Logo Print, Light Flesh Face and Hands, and White Legs",
+    "partNum": "10111pr0007",
+    "dimensions": null,
+    "brickOwlId": "424548"
+  },
+  {
+    "name": "Duplo Figure with Headset and Cap Yellow, with Orange Vest over Green Shirt with Red Sleeves, Light Flesh Face and Hands, and Blue Legs",
+    "partNum": "10111pr0033",
+    "dimensions": null,
+    "brickOwlId": "29587"
+  },
+  {
+    "name": "Duplo Figure with Headset and Cap Yellow, with Medium Azure Arms, Yellow Vest with Orange Stripes, and Black Legs",
+    "partNum": "10111pr0075",
+    "dimensions": null,
+    "brickOwlId": "547889"
+  },
+  {
+    "name": "Duplo Figure with Headset and Cap Yellow, with Medium Azure Legs and Arms, Jacket with Pockets and Zipper Print",
+    "partNum": "10111pr0093",
+    "dimensions": null,
+    "brickOwlId": "991764"
+  },
+  { "name": "Minifig Mask Batman Cowl", "partNum": "10113", "dimensions": null, "brickOwlId": "82333" },
+  {
+    "name": "Minifig Mask Batman Cowl with Silver Bat Mask Around Eyes Print",
+    "partNum": "10113pr0001",
+    "dimensions": null,
+    "brickOwlId": "185232"
+  },
+  {
+    "name": "Minifig Mask Batman Cowl with Black Stitched Seams Print",
+    "partNum": "10113pr0002",
+    "dimensions": null,
+    "brickOwlId": "642251"
+  },
+  {
+    "name": "Minifig Mask Batman Cowl with Silver Stars, Dots print",
+    "partNum": "10113pr0004",
+    "dimensions": null,
+    "brickOwlId": "737946-92"
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with No Lining",
+    "partNum": "1011A",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black '0' Print with No Lining",
+    "partNum": "1011Apr0030",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black '1' Print with No Lining",
+    "partNum": "1011Apr0031",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black '2' Print with No Lining",
+    "partNum": "1011Apr0032",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black '3' Print with No Lining",
+    "partNum": "1011Apr0033",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black '4' Print with No Lining",
+    "partNum": "1011Apr0034",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black '5' Print with No Lining",
+    "partNum": "1011Apr0035",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black '6' Print with No Lining",
+    "partNum": "1011Apr0036",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black '7' Print with No Lining",
+    "partNum": "1011Apr0037",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black '8' Print with No Lining",
+    "partNum": "1011Apr0038",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black '9' Print with No Lining",
+    "partNum": "1011Apr0039",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black Lining on and Sides Only",
+    "partNum": "1011B",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Black Lining on Top and Sides",
+    "partNum": "1011C",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with A print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0001",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with B print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0002",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with C print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0003",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with D print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0004",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with E print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0005",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with F print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0006",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with G print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0007",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with H print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0008",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with I print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0009",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with J print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0010",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with K print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0011",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with L print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0012",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with M print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0013",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with N print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0014",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with O print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0015",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with P print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0016",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Q print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0017",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with R print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0018",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with S print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0019",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with T print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0020",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with U print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0021",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with V print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0022",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with X print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0023",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Y print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0024",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Z print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0025",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Å print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0027",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Ä print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0028",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Ö print - Black Lining on Top and Sides",
+    "partNum": "1011Cpr0029",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  {
+    "name": "Modulex Tile 1 x 1 with Slot for Line",
+    "partNum": "1011D",
+    "dimensions": { "width": "", "length": "1", "height": "1" }
+  },
+  { "name": "Arm Giant, Right", "partNum": "10124", "dimensions": null, "brickOwlId": "124122" },
+  {
+    "name": "Arm Giant, Right with Blue Darkseid Print",
+    "partNum": "10124pr0001",
+    "dimensions": null,
+    "brickOwlId": "475055-64"
+  },
+  {
+    "name": "Arm Giant, Right with Black Hawaiian Tattoos (Maui) Print",
+    "partNum": "10124pr0002",
+    "dimensions": null,
+    "brickOwlId": "178667-74"
+  },
+  {
+    "name": "Arm Giant, Right with Pearl Gold Armour print",
+    "partNum": "10124pr0011",
+    "dimensions": null,
+    "brickOwlId": "206595-76"
+  },
+  { "name": "Hand Hulk - Right", "partNum": "10126", "dimensions": null, "brickOwlId": "224489" },
+  { "name": "Hand Hulk - Left", "partNum": "10127", "dimensions": null, "brickOwlId": "347218" },
+  {
+    "name": "Body Giant, Hulk with Dark Tan Pants Print",
+    "partNum": "10128pr0001",
+    "dimensions": null,
+    "brickOwlId": "83125"
+  },
+  {
+    "name": "Body Giant, Hulk with Dark Purple Pants Print",
+    "partNum": "10128pr0002",
+    "dimensions": null,
+    "brickOwlId": "939635-41"
+  },
+  {
+    "name": "Body Giant, Hulk with Magenta Pants Print",
+    "partNum": "10128pr0003",
+    "dimensions": null,
+    "brickOwlId": "29932"
+  },
+  {
+    "name": "Sticker for Set 10129 - (48074/4214068)",
+    "partNum": "10129stk01",
+    "dimensions": null,
+    "brickOwlId": "113579"
+  },
+  {
+    "name": "Modulex Tile 2 x 12 without Internal Supports",
+    "partNum": "1012A",
+    "dimensions": { "width": "", "length": "2", "height": "12" }
+  },
+  {
+    "name": "Sticker for Set 10134 - (48981/4221407)",
+    "partNum": "10134stk01",
+    "dimensions": null,
+    "brickOwlId": "230374"
+  },
+  { "name": "Arm Giant, Left", "partNum": "10154", "dimensions": null, "brickOwlId": "353509" },
+  {
+    "name": "Arm Giant, Left with Blue Darkseid Print",
+    "partNum": "10154pr0001",
+    "dimensions": null,
+    "brickOwlId": "733998-64"
+  },
+  {
+    "name": "Arm Giant, Left with Black Hawaiian Tattoos Print (Maui)",
+    "partNum": "10154pr0002",
+    "dimensions": null,
+    "brickOwlId": "402808-74"
+  },
+  { "name": "Arm Giant, Left with Killow print", "partNum": "10154pr0006", "dimensions": null, "brickOwlId": "423415" },
+  {
+    "name": "Arm Giant, Left with Pearl Gold Armour print",
+    "partNum": "10154pr0011",
+    "dimensions": null,
+    "brickOwlId": "27207-76"
+  },
+  { "name": "Minifig Cap, Santa [Plain]", "partNum": "10164", "dimensions": null },
+  {
+    "name": "Minifig Santa Hat with Red Top Print",
+    "partNum": "10164pr0001",
+    "dimensions": null,
+    "brickOwlId": "749302"
+  },
+  {
+    "name": "Minifig Helmet Underwater Deep Diver with Trans-Clear Glass",
+    "partNum": "10165c01",
+    "dimensions": null,
+    "brickOwlId": "565394"
+  },
+  {
+    "name": "Minifig Hair Short Tousled with Headphones Silver Print",
+    "partNum": "10166pr0001",
+    "dimensions": null,
+    "brickOwlId": "273974"
+  },
+  {
+    "name": "Minifig Hair Short Tousled with Headphones Black Print",
+    "partNum": "10166pr0003",
+    "dimensions": null,
+    "brickOwlId": "678697"
+  },
+  {
+    "name": "Minifig Hair Short Tousled with Headphones Dark Tan Print",
+    "partNum": "10166pr0004",
+    "dimensions": null,
+    "brickOwlId": "613960-51"
+  },
+  {
+    "name": "Minifig Hat - Cowboy with Star and Medium Dark Flesh Braid Print",
+    "partNum": "10168pb01",
+    "dimensions": null,
+    "brickOwlId": "818029"
+  },
+  {
+    "name": "Bag / Sack with Handle",
+    "partNum": "10169",
+    "dimensions": { "width": "2", "length": "2", "height": "1" },
+    "brickOwlId": "739003"
+  },
+  {
+    "name": "Bag / Sack with Handle and '$' / Dollar Sign Print",
+    "partNum": "10169pr0001",
+    "dimensions": null,
+    "brickOwlId": "222782-61"
+  },
+  {
+    "name": "Food Pretzel",
+    "partNum": "10170",
+    "dimensions": { "width": "2", "length": "2", "height": "0.33" },
+    "brickOwlId": "272330"
+  },
+  {
+    "name": "Equipment Trophy Cup Small",
+    "partNum": "10172",
+    "dimensions": { "width": "1", "length": "3", "height": "2" },
+    "brickOwlId": "536535"
+  },
+  {
+    "name": "Equipment Trophy Cup Small with Black Terrier Dog Print",
+    "partNum": "10172pr0001",
+    "dimensions": { "width": "1", "length": "3", "height": "2" },
+    "brickOwlId": "702431"
+  },
+  { "name": "Minifig Ghost Shroud with Open Mouth", "partNum": "10173", "dimensions": null, "brickOwlId": "147549" },
+  { "name": "RIGHT MINI FIGURE ROBOT LEG", "partNum": "10177", "dimensions": null },
+  { "name": "Rock 1 x 2 Crystal Stepped", "partNum": "10178", "dimensions": null, "brickOwlId": "799002" },
+  {
+    "name": "Rock Stepped with Dark Green Swamp Gas Print",
+    "partNum": "10178pr0001a",
+    "dimensions": null,
+    "brickOwlId": "422359"
+  },
+  {
+    "name": "Rock 1 x 2 Crystal Stepped with Mosquito Print",
+    "partNum": "10178pr0001b",
+    "dimensions": null,
+    "brickOwlId": "701766"
+  },
+  {
+    "name": "Rock Stepped with Gold Egyptian Eye of Horus Print",
+    "partNum": "10178pr0002",
+    "dimensions": null,
+    "brickOwlId": "484315"
+  },
+  {
+    "name": "Rock Stepped with Black Wolf Print [aka Moonstone]",
+    "partNum": "10178pr0003",
+    "dimensions": null,
+    "brickOwlId": "675076"
+  },
+  { "name": "Rock Stepped with Black Bat Print", "partNum": "10178pr0004", "dimensions": null, "brickOwlId": "614672" },
+  {
+    "name": "Rock Stepped with Black Zombie Print",
+    "partNum": "10178pr0005",
+    "dimensions": null,
+    "brickOwlId": "889234"
+  },
+  {
+    "name": "Rock Stepped with White Lightning Print",
+    "partNum": "10178pr0006",
+    "dimensions": null,
+    "brickOwlId": "135383"
+  },
+  {
+    "name": "Rock 1 x 2 Crystal Stepped with White Ghost Moonstone Print",
+    "partNum": "10178pr0007",
+    "dimensions": null,
+    "brickOwlId": "889381"
+  },
+  {
+    "name": "Paper, Certificate of Authenticity for Set 10179 Limited Edition",
+    "partNum": "10179cert",
+    "dimensions": null,
+    "brickOwlId": "617242"
+  },
+  { "name": "Minifig Neckwear Wings Fairy", "partNum": "10183", "dimensions": null, "brickOwlId": "688298" },
+  {
+    "name": "Minifig Neckwear Wings Fairy with Black Lines Print",
+    "partNum": "10183pr0001",
+    "dimensions": null,
+    "brickOwlId": "318571-97"
+  },
+  { "name": "Weapon Bladed Claw Spread", "partNum": "10187", "dimensions": null, "brickOwlId": "872711" },
+  {
+    "name": "Minifig Footwear Flipper [Thick]",
+    "partNum": "10190",
+    "dimensions": { "width": "2", "length": "1", "height": "0.30" },
+    "brickOwlId": "270004"
+  },
+  {
+    "name": "Sticker for Set 10192 - (10192/4528138)",
+    "partNum": "10192stk01",
+    "dimensions": null,
+    "brickOwlId": "20286"
+  },
+  {
+    "name": "Duplo Figure with Bright Light Yellow Hair with Bright Light Blue Headband, Light Flesh Arms, White Legs, Azure Design Print (Cinderella)",
+    "partNum": "10193",
+    "dimensions": null,
+    "brickOwlId": "969916"
+  },
+  {
+    "name": "Technic Pin Connector Hub with 2 Perpendicular Axles",
+    "partNum": "10197",
+    "dimensions": { "width": "2", "length": "2", "height": "1" },
+    "brickOwlId": "291664"
+  },
+  {
+    "name": "Bracket 1 x 2 - 1 x 4 [Rounded Corners]",
+    "partNum": "10201",
+    "dimensions": { "width": "1.20", "length": "4", "height": "0.83" },
+    "brickOwlId": "978096"
+  },
+  {
+    "name": "Tile 6 x 6 with Bottom Tubes",
+    "partNum": "10202",
+    "dimensions": { "width": "6", "length": "6", "height": "0.33" },
+    "brickOwlId": "954836"
+  },
+  {
+    "name": "Tile 6 x 6 with Bottom Tubes with Bus Half and 'TIME' Print",
+    "partNum": "10202pr0002",
+    "dimensions": { "width": "6", "length": "6", "height": "0.33" },
+    "brickOwlId": "300934-64"
+  },
+  {
+    "name": "Tile 6 x 6 with Bottom Tubes with Bus Half and 'IT'S FRITTER' Print",
+    "partNum": "10202pr0003",
+    "dimensions": { "width": "6", "length": "6", "height": "0.33" },
+    "brickOwlId": "315992-64"
+  },
+  {
+    "name": "Tile 6 x 6 with Bottom Tubes with Incredibles '18% Approval Raring', Red Arrow print",
+    "partNum": "10202pr0004",
+    "dimensions": { "width": "6", "length": "6", "height": "0.33" },
+    "brickOwlId": "574566"
+  },
+  {
+    "name": "Tile 6 x 6 with Bottom Tubes with Roof Tiles print",
+    "partNum": "10202pr0005",
+    "dimensions": { "width": "6", "length": "6", "height": "0.33" },
+    "brickOwlId": "907477-58"
+  },
+  {
+    "name": "Sticker for Set 10212 - (88529/4568123)",
+    "partNum": "10212stk01",
+    "dimensions": null,
+    "brickOwlId": "311977"
+  },
+  {
+    "name": "Cardboard Game Board - Life of George",
+    "partNum": "10218",
+    "dimensions": { "width": "26.88", "length": "15.63", "height": "0.13" },
+    "brickOwlId": "414787"
+  },
+  { "name": "Sticker for Set 10219", "partNum": "10219stk01", "dimensions": null },
+  {
+    "name": "Modulex Tile 1 x 2 without Internal Support",
+    "partNum": "1021A",
+    "dimensions": { "width": "", "length": "1", "height": "2" }
+  }
+]
