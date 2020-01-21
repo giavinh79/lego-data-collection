@@ -1,5 +1,11 @@
-const express = require('express');
-const helmet = require('helmet');
+/* Server-side code
+ *const express = require('express');
+ *const app = express();
+ *const helmet = require('helmet');
+ *const port = 3030 || process.env;
+ *app.use(helmet);
+ */
+
 const axios = require('axios');
 const csv = require('csv-parser');
 const fs = require('fs');
@@ -7,38 +13,32 @@ const request = require('request');
 const cheerio = require('cheerio');
 require('dotenv').config();
 
-const app = express();
-const port = 3030 || process.env;
-app.use(helmet);
-// example part 3003,Brick 2 x 2,11,1
-
 /*
  * Script for reading Lego part CSV file, finding associated dimensions, and writing final JSON file locally/uploading to MongoDB
  * Maybe for ETL related operations like this, make an API endpoint that you can call to run these functions?
  */
 
-const exampleObj = {
-  part_num: '3003',
-  name: 'Brick 2 x 2'
-};
+let globalPartsArray = [];
+let counter = 0;
 
 /*
  * Fallback if web scraping doesn't work or is not available
  * Typically first two #s are length x width and third # is height
  */
 const parseDimensionsFromName = name => {
-  let dimensionMatches = name.match(/([0-9]+.[0-9]+|[0-9]*)( |)x( |)([0-9]+.[0-9]+|[0-9]*|)*/g);
+  let dimensions = '';
+  let dimensionsArray;
+  let dimensionMatches = name.match(/([.0-9]+)( |)x( |)([.0-9]+)( |)x( |)([.0-9]+)|([.0-9]+)( |)x( |)([.0-9]+)/g);
+
   if (dimensionMatches == null) {
     return null;
   }
-  let dimensions = '';
 
   for (let item of dimensionMatches) {
-    item = item.trim();
-    dimensions += item;
+    dimensions += item.trim();
   }
 
-  let dimensionsArray = dimensions.split('x');
+  dimensionsArray = dimensions.split('x');
   if (dimensionsArray.length === 2) {
     return { width: dimensionsArray[0].trim(), length: dimensionsArray[1].trim(), height: 1 };
   } else {
@@ -46,12 +46,8 @@ const parseDimensionsFromName = name => {
   }
 };
 
-let globalPartsArray = [];
-let counter = 0;
-
-// Most units are 1.6cm
-const webscrapePart = part => {
-  const partObj = new Promise(async resolve => {
+const webscrapePart = async part => {
+  const partObj = await new Promise(async resolve => {
     try {
       const { data } = await axios.get(`https://rebrickable.com/api/v3/lego/parts/${part}/`, {
         headers: {
@@ -62,54 +58,75 @@ const webscrapePart = part => {
       if (data.external_ids.BrickOwl) {
         request(`https://www.brickowl.com/catalog/${data.external_ids.BrickOwl[0]}`, (err, res, body) => {
           const $ = cheerio.load(body);
+          let dimensionsObject;
           let parsedDimensions = $('.even .dimseg').text();
+          // Since the units aren't standardized, might be better to take the 'cm' unit values.
+          // Any other dimensions (ex. taken from name) can be multiplied by 1.6cm per unit (which I've seen as most common).
           if (parsedDimensions.indexOf('cm') > -1) {
             parsedDimensions = $('.odd .dimseg').text();
           }
 
-          let dimensionsObject = parseDimensionsFromName(parsedDimensions.replace(/\u00A0/g, ' '));
+          dimensionsObject = parseDimensionsFromName(parsedDimensions.replace(/\u00A0/g, ' ')); // replacing &nbsp char. with space
 
           if (!dimensionsObject) {
-            resolve({ name: data.name, partNum: part, dimensions: null, brickOwlId: data.external_ids.BrickOwl[0] });
+            resolve({
+              name: data.name,
+              partNum: part,
+              dimensions: null,
+              brickOwlId: data.external_ids.BrickOwl[0],
+              partImage: data.part_img_url
+            });
           } else {
             resolve({
               name: data.name,
               partNum: part,
               dimensions: dimensionsObject,
-              brickOwlId: data.external_ids.BrickOwl[0]
+              brickOwlId: data.external_ids.BrickOwl[0],
+              partImage: data.part_img_url
             });
           }
         });
       } else {
-        let dimensionsObject = parseDimensionsFromName(data.name);
+        dimensionsObject = parseDimensionsFromName(data.name);
         if (!dimensionsObject) {
-          resolve({ name: data.name, partNum: part, dimensions: null });
+          resolve({ name: data.name, partNum: part, dimensions: null, partImage: data.part_img_url });
         } else {
-          resolve({ name: data.name, partNum: part, dimensions: dimensionsObject });
+          resolve({ name: data.name, partNum: part, dimensions: dimensionsObject, partImage: data.part_img_url });
         }
       }
     } catch (err) {
-      resolve({ name: data.name, partNum: part, dimensions: null });
+      console.log(`Unable to generate part object [Error: ${err.message}]`);
+      resolve({ part: part, error: 'ERROR' });
     }
   });
-  counter++;
-  console.log(counter);
   return partObj;
 };
 
 const retrievePartData = () => {
+  let csvPartsArray = [];
+
   fs.createReadStream('./res/parts-minimal.csv')
     .pipe(csv())
-    .on('data', row => {
-      globalPartsArray.push(webscrapePart(row.part_num));
+    .on('data', async row => {
+      csvPartsArray.push(row.part_num);
     })
     .on('end', async () => {
       try {
-        const res = await Promise.all(globalPartsArray);
-        let data = JSON.stringify(res);
-        fs.writeFileSync('./res/parts.json', data);
+        for (item of csvPartsArray) {
+          globalPartsArray.push(webscrapePart(item));
+          counter++;
+          console.log(counter);
+          // Need to delay due to API rate limiter
+          await new Promise(resolve => {
+            setTimeout(resolve, 500);
+          });
+        }
+
+        let data = await Promise.all(globalPartsArray);
+        data = JSON.stringify(data);
+        fs.writeFileSync('./res/parts0-999.json', data);
       } catch (err) {
-        console.log(err);
+        console.log(`Unable to generate JSON file [Error: ${err.message}]`);
       }
     });
 };
@@ -121,9 +138,9 @@ retrievePartData();
  */
 
 // app.get('/', (request, response) => {
-//     response.send('Hello World!');
+//     response.send('Lego ML Backend');
 // });
 
 // app.listen(port, () => {
-//     console.log('starting server on localhost:3030');
+//     console.log(`Starting on ${port}`);
 // });
