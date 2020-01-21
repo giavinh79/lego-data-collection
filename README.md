@@ -1,4 +1,7 @@
 # lego-ml-backend
+### Background
+Script for converting a Lego parts CSV file into a JSON file with image and dimensions data.
+
 ### Set Up
 Go to root directory and do a 'npm install'. 
 
