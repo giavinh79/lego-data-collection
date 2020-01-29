@@ -1,11 +1,4 @@
-/* Server-side code
- *const express = require('express');
- *const app = express();
- *const helmet = require('helmet');
- *const port = 3030 || process.env;
- *app.use(helmet);
- */
-
+const inquirer = require('inquirer');
 const axios = require('axios');
 const csv = require('csv-parser');
 const fs = require('fs');
@@ -49,6 +42,7 @@ const parseDimensionsFromName = name => {
 const webscrapePart = async part => {
   const partObj = await new Promise(async resolve => {
     try {
+      let partObject = {};
       const { data } = await axios.get(`https://rebrickable.com/api/v3/lego/parts/${part}/`, {
         headers: {
           Authorization: `key ${process.env.REBRICKABLE_API_KEY}`
@@ -60,11 +54,13 @@ const webscrapePart = async part => {
           const $ = cheerio.load(body);
           let dimensionsObject;
           let parsedDimensions = $('.even .dimseg').text();
-          // Since the units aren't standardized, might be better to take the 'cm' unit values.
-          // Any other dimensions (ex. taken from name) can be multiplied by 1.6cm per unit (which I've seen as most common).
+
+          // Most common conversion I've seen is 1 unit = 1.6cm
           if (parsedDimensions.indexOf('cm') > -1) {
             parsedDimensions = $('.odd .dimseg').text();
           }
+          console.log('wack');
+          console.log(parsedDimensions);
 
           dimensionsObject = parseDimensionsFromName(parsedDimensions.replace(/\u00A0/g, ' ')); // replacing &nbsp char. with space
 
@@ -116,31 +112,46 @@ const retrievePartData = () => {
           globalPartsArray.push(webscrapePart(item));
           counter++;
           console.log(counter);
+
           // Need to delay due to API rate limiter
           await new Promise(resolve => {
-            setTimeout(resolve, 500);
+            setTimeout(resolve, 700);
           });
         }
 
         let data = await Promise.all(globalPartsArray);
         data = JSON.stringify(data);
-        fs.writeFileSync('./res/parts0-999.json', data);
+        fs.writeFileSync('./res/parts.json', data);
       } catch (err) {
         console.log(`Unable to generate JSON file [Error: ${err.message}]`);
       }
     });
 };
 
-retrievePartData();
+// retrievePartData();
 
-/*
- * Serverside Code
- */
+let questions = [
+  {
+    type: 'input',
+    name: 'process'
+  }
+];
 
-// app.get('/', (request, response) => {
-//     response.send('Lego ML Backend');
-// });
-
-// app.listen(port, () => {
-//     console.log(`Starting on ${port}`);
-// });
+(startProcess = () => {
+  console.log('-----------------------------------------------------------------');
+  console.log('Welcome. Please enter a digit to initiate the process you desire:');
+  console.log('-----------------------------------------------------------------');
+  console.log('(1): Generate JSON of CSV file using Rebrickable API and web scraping BrickOwl');
+  console.log('(2): Webscrape BrickOwl using .dat files (used by Ldraw programs)');
+  inquirer.prompt(questions).then(answers => {
+    if (answers.process == 1) {
+      console.log('Starting CSV file data extraction process...');
+    } else if (answers.process == 2) {
+      console.log('Starting DAT file data extraction process...');
+    } else {
+      console.log('Exiting...');
+      return;
+    }
+    console.log(answers);
+  });
+})();
